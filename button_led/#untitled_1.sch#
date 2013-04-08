@@ -1,0 +1,11 @@
+v 20121123 2
+C 40000 40000 0 0 0 title-B.sym
+C 41500 42000 1 0 0 arduino_uno_rev3.sym
+{
+T 47900 50100 5 10 1 1 0 6 1
+refdes=U?
+T 41900 50300 5 10 0 0 0 0 1
+device=ARDUINO UNO R3
+T 41900 50500 5 10 0 0 0 0 1
+footprint=arduino_uno_rev3_fpt
+}
