@@ -1,3 +1,4 @@
+#include <Arduino.h>
 int potpin = 5;
 int buttonpin = 7;
 int buttonstate = 0;

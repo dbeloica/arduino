@@ -1,8 +1,8 @@
-ARDUINO_DIR 	= /usr/local/arduino
-ARDMK_DIR	= /usr/local/arduino-mk
+ARDUINO_DIR 	= /usr/share/arduino
+ARDMK_DIR	= /usr
 BOARD_TAG	= uno
-ARDUINO_PORT	= /dev/cuaU0
+ARDUINO_PORT	= /dev/ttyACM0
 ARDUINO_LIBS	=
 
-include /usr/local/arduino-mk/Arduino.mk
+include /usr/share/arduino/Arduino.mk
 
