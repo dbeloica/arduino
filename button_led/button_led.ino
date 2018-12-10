@@ -58,7 +58,7 @@ void loop()
         Serial.println(" loops...");
         for (i=0;i<new_state;i++)
         {
-            wait = random(20,150); // LEDs are lit for random lengths
+            wait = random(100,500); // LEDs are lit for random lengths
             led = random(1,num_leds+1); // pick a random LED to light up
             Serial.print("...[");
             Serial.print(i);
@@ -90,6 +90,6 @@ void loop()
         }
         Serial.println(); 
         blinks = 0;             // reset the counters
-        //ledcount = 0;   // reset counters
+        memset(ledcount, 0, sizeof(ledcount));;   // reset counters
     }
 }
